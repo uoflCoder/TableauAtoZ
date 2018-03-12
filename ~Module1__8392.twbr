@@ -438,7 +438,7 @@
       <column datatype='integer' default-format='*00000' name='[Postal Code]' role='dimension' semantic-role='[ZipCode].[Name]' type='ordinal' />
       <column datatype='integer' name='[Row ID]' role='dimension' type='ordinal' />
       <column datatype='string' name='[State or Province]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
-      <layout dim-ordering='alphabetic' dim-percentage='0.636808' measure-ordering='alphabetic' measure-percentage='0.363192' show-structure='true' />
+      <layout dim-ordering='alphabetic' dim-percentage='0.609948' measure-ordering='alphabetic' measure-percentage='0.390052' show-structure='true' />
       <semantic-values>
         <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
       </semantic-values>
@@ -469,8 +469,8 @@
         </view>
         <style>
           <style-rule element='axis'>
-            <encoding attr='space' class='0' field='[federated.1usrbql1e6kavp1encpos13eybmn].[Longitude (generated)]' field-type='quantitative' max='-8036447.512246374' min='-12142748.726869194' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
-            <encoding attr='space' class='0' field='[federated.1usrbql1e6kavp1encpos13eybmn].[Latitude (generated)]' field-type='quantitative' max='4819975.6940203635' min='2231589.9622030361' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+            <encoding attr='space' class='0' field='[federated.1usrbql1e6kavp1encpos13eybmn].[Longitude (generated)]' field-type='quantitative' max='-9087730.7707394976' min='-17289596.327404127' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.1usrbql1e6kavp1encpos13eybmn].[Latitude (generated)]' field-type='quantitative' max='6718943.3084853571' min='1546097.2407069886' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
           </style-rule>
           <style-rule element='map-layer'>
             <format attr='enabled' id='tab_base' value='true' />
